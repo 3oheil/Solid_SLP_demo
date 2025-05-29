@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Correc_example
 {
-    internal class Eagle
+    public class Eagle : Bird, IFyable
     {
+        public void Fly()
+        {
+            Console.WriteLine("The eagle soars high in the sky.");
+        }
+
     }
 }
