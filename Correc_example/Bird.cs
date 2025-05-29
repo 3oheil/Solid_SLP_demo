@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Correc_example
 {
-    internal class Bird
+    public class Bird
     {
+        public virtual void Eat()
+        {
+            Console.WriteLine("The bird is eating.");
+        }
     }
 }
