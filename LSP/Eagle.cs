@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace violation_Example
 {
-    internal class Eagle : Bird
+    public class Eagle : Bird
     {
         public override void Fly()
         {
