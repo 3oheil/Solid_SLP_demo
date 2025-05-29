@@ -8,6 +8,6 @@ namespace Correc_example
 {
     public interface IFyable
     {
-        void fly();
+        void Fly();
     }
 }
