@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Correc_example
 {
-    internal class Ostrich
+    public class Ostrich : Bird
     {
+        // Ostrich deliberately does NOT implement IFlyable
     }
 }
