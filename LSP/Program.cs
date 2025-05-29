@@ -1,4 +1,4 @@
-﻿namespace LSP
+﻿namespace violation_Example
 {
     public class Program
     {
