@@ -9,9 +9,7 @@ namespace ISP_Currect
 {
     public class SimplePrinter : IPrinter
     {
-        public void Print(Document doc)
-        {
-            throw new NotImplementedException();
-        }
+        public void Print(Document doc) => Console.WriteLine("Printing...");
     }
 }
+
