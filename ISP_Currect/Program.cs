@@ -1,0 +1,10 @@
+﻿namespace ISP_Currect
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
