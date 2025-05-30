@@ -5,7 +5,7 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP_Currect
+namespace ISP_Currect.Interfaces
 {
     public interface IFax
     {

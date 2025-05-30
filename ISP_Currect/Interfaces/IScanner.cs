@@ -5,10 +5,10 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP_Currect
+namespace ISP_Currect.Interfaces
 {
-    public interface IPrinter
+    public interface IScanner
     {
-        void Print(Document doc);
+        void Scan(Document doc);
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace ISP_Currect
+﻿namespace ISP_Currect.Interfaces
 {
     internal class Program
     {
