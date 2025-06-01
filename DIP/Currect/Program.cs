@@ -1,10 +1,35 @@
-﻿namespace Currect
+﻿public interface IBeverageStation
 {
-    internal class Program
+    void MakeDrink();
+}
+
+public class CoffeeOrderSystem
+{
+    private IBeverageStation beverageStation;
+
+    public CoffeeOrderSystem(IBeverageStation station)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        beverageStation = station;
+    }
+
+    public void ProcessOrder()
+    {
+        beverageStation.MakeDrink();
+    }
+}
+
+public class EspressoMachine : IBeverageStation
+{
+    public void MakeDrink()
+    {
+        Console.WriteLine("Making coffee...");
+    }
+}
+
+public class TeaMaker : IBeverageStation
+{
+    public void MakeDrink()
+    {
+        Console.WriteLine("Making tea...");
     }
 }
