@@ -1,10 +1,17 @@
-﻿namespace Wrong
+﻿public class CoffeeOrderSystem
 {
-    internal class Program
+    private EspressoMachine espressoMachine = new EspressoMachine();
+
+    public void ProcessOrder()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        espressoMachine.MakeCoffee();
+    }
+}
+
+public class EspressoMachine
+{
+    public void MakeCoffee()
+    {
+        Console.WriteLine("Making coffee...");
     }
 }
